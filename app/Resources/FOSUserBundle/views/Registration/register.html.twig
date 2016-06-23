@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block page_content %}
+    <div class="register-box-body">
+        {% include "FOSUserBundle:Registration:register_content.html.twig" %}
+    </div>
+{% endblock %}
+
+{% block avanzu_admin_footer %}
+ {{ parent() }}
+{% endblock %}

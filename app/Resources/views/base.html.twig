@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cardio: Free One Page Template by Luka Cvetinovic</title>
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#00a8ff">
+	<meta name="theme-color" content="#ffffff">
+	{% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/avanzuadmintheme/static/'~ app.environment ~'/styles/admin-lte-all.css') }}" />
+    {% endblock %}
+</head>
+<body>
+
+<div class="wrapper skin-blue layout-top-nav">
+    {% block page_title %}
+    {% endblock %}
+    
+    {% block page_subtitle %}
+    {% endblock %}
+    
+    {% block avanzu_admin_header %}
+        {% include 'FrontBundle:Front:header.html.twig' %}
+        {% include 'FrontBundle:Front:menu.html.twig' %}
+    {% endblock %}
+    
+    <div class="content-wrapper">
+        {% block page_content  %}
+            
+        {% endblock %}
+    </div>
+
+    
+    {% block avanzu_admin_footer %}
+    <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 0.1
+                </div>
+                <strong>Copyright &copy; 2016-2017 <a href="http://almsaeedstudio.com">Enquette Studio</a>.</strong> All rights reserved.
+    </footer>
+    {% endblock %}
+    
+    {% block javascript %}
+        <script src="{{ asset('bundles/avanzuadmintheme/static/'~ app.environment ~'/scripts/admin-lte-all.js') }}"></script>
+        <script src="{{ asset('/bundles/front/js/main.js') }}"></script>
+    {% endblock %}
+</div>
+</body>
+</html>

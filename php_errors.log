@@ -1,0 +1,360 @@
+[10-Jun-2016 15:11:44 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/enquette/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/enquette/vendor/autoload.php on line 5
+[10-Jun-2016 15:11:44 UTC] PHP Stack trace:
+[10-Jun-2016 15:11:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[10-Jun-2016 15:11:44 UTC] PHP   2. require() /home/ubuntu/workspace/enquette/web/app_dev.php:23
+[10-Jun-2016 15:11:44 UTC] PHP   3. require() /home/ubuntu/workspace/enquette/app/autoload.php:9
+[10-Jun-2016 15:11:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/enquette/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/enquette/vendor/autoload.php on line 5
+[10-Jun-2016 15:11:44 UTC] PHP Stack trace:
+[10-Jun-2016 15:11:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[10-Jun-2016 15:11:44 UTC] PHP   2. require() /home/ubuntu/workspace/enquette/web/app_dev.php:23
+[10-Jun-2016 15:11:44 UTC] PHP   3. require() /home/ubuntu/workspace/enquette/app/autoload.php:9
+[10-Jun-2016 15:11:59 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/enquette/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/enquette/vendor/autoload.php on line 5
+[10-Jun-2016 15:11:59 UTC] PHP Stack trace:
+[10-Jun-2016 15:11:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[10-Jun-2016 15:11:59 UTC] PHP   2. require() /home/ubuntu/workspace/enquette/web/app_dev.php:23
+[10-Jun-2016 15:11:59 UTC] PHP   3. require() /home/ubuntu/workspace/enquette/app/autoload.php:9
+[10-Jun-2016 15:11:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/enquette/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/enquette/vendor/autoload.php on line 5
+[10-Jun-2016 15:11:59 UTC] PHP Stack trace:
+[10-Jun-2016 15:11:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[10-Jun-2016 15:11:59 UTC] PHP   2. require() /home/ubuntu/workspace/enquette/web/app_dev.php:23
+[10-Jun-2016 15:11:59 UTC] PHP   3. require() /home/ubuntu/workspace/enquette/app/autoload.php:9
+[10-Jun-2016 15:18:22 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/enquette/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/enquette/vendor/autoload.php on line 5
+[10-Jun-2016 15:18:22 UTC] PHP Stack trace:
+[10-Jun-2016 15:18:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[10-Jun-2016 15:18:22 UTC] PHP   2. require() /home/ubuntu/workspace/enquette/web/app_dev.php:23
+[10-Jun-2016 15:18:22 UTC] PHP   3. require() /home/ubuntu/workspace/enquette/app/autoload.php:9
+[10-Jun-2016 15:18:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/enquette/vendor/composer/autoload_real.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/enquette/vendor/autoload.php on line 5
+[10-Jun-2016 15:18:22 UTC] PHP Stack trace:
+[10-Jun-2016 15:18:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[10-Jun-2016 15:18:22 UTC] PHP   2. require() /home/ubuntu/workspace/enquette/web/app_dev.php:23
+[10-Jun-2016 15:18:22 UTC] PHP   3. require() /home/ubuntu/workspace/enquette/app/autoload.php:9
+[16-Jun-2016 08:33:29 UTC] PHP Fatal error:  Cannot instantiate abstract class AppBundle\Entity\User in /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/AbstractToken.php on line 164
+[16-Jun-2016 08:33:29 UTC] PHP Stack trace:
+[16-Jun-2016 08:33:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 08:33:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 08:33:29 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 08:33:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 08:33:29 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[16-Jun-2016 08:33:29 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[16-Jun-2016 08:33:29 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[16-Jun-2016 08:33:29 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[16-Jun-2016 08:33:29 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[16-Jun-2016 08:33:29 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[16-Jun-2016 08:33:29 UTC] PHP  11. Symfony\Component\Security\Http\Firewall->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[16-Jun-2016 08:33:29 UTC] PHP  12. Symfony\Component\Security\Http\Firewall\ContextListener->handle($event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2504
+[16-Jun-2016 08:33:29 UTC] PHP  13. unserialize(*uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Firewall/ContextListener.php:84
+[16-Jun-2016 08:33:29 UTC] PHP  14. Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken->unserialize($serialized = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Firewall/ContextListener.php:84
+[16-Jun-2016 08:33:29 UTC] PHP  15. Symfony\Component\Security\Core\Authentication\Token\AbstractToken->unserialize($serialized = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/UsernamePasswordToken.php:105
+[16-Jun-2016 08:33:29 UTC] PHP  16. unserialize(*uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/AbstractToken.php:164
+[16-Jun-2016 13:19:13 UTC] PHP Fatal error:  Class 'AppBundle\UserBundle' not found in /home/ubuntu/workspace/enquette/app/AppKernel.php on line 24
+[16-Jun-2016 13:19:14 UTC] PHP Stack trace:
+[16-Jun-2016 13:19:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 13:19:14 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 13:19:14 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:166
+[16-Jun-2016 13:19:14 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:114
+[16-Jun-2016 13:19:14 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:396
+[16-Jun-2016 13:42:35 UTC] PHP Fatal error:  Class 'AppBundle\Form\RegistrationType' not found in /home/ubuntu/workspace/enquette/var/cache/dev/appDevDebugProjectContainer.php on line 328
+[16-Jun-2016 13:42:35 UTC] PHP Stack trace:
+[16-Jun-2016 13:42:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 13:42:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 13:42:35 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 13:42:35 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 13:42:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 13:42:35 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 13:42:35 UTC] PHP   7. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php:13
+[16-Jun-2016 13:42:35 UTC] PHP   8. appDevDebugProjectContainer->getApp_Form_RegistrationService() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:275
+[16-Jun-2016 14:05:33 UTC] PHP Fatal error:  Class 'UserBundle\Controller\GetResponseUserEvent' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 23
+[16-Jun-2016 14:05:33 UTC] PHP Stack trace:
+[16-Jun-2016 14:05:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:05:33 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:05:33 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:05:33 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:05:33 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:05:33 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:06:05 UTC] PHP Fatal error:  Class 'UserBundle\Controller\FOSUserEvents' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 25
+[16-Jun-2016 14:06:05 UTC] PHP Stack trace:
+[16-Jun-2016 14:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:06:05 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:06:05 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:06:05 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:06:05 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:06:05 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:07:19 UTC] PHP Fatal error:  Cannot use Symfony\Component\HttpFoundation\RedirectResponse as RedirectResponse because the name is already in use in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 11
+[16-Jun-2016 14:07:19 UTC] PHP Stack trace:
+[16-Jun-2016 14:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:07:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:07:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:07:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:07:19 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:127
+[16-Jun-2016 14:07:19 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:46
+[16-Jun-2016 14:07:19 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController($controller = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2028
+[16-Jun-2016 14:07:19 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController($controller = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2430
+[16-Jun-2016 14:07:19 UTC] PHP   9. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2080
+[16-Jun-2016 14:07:19 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2080
+[16-Jun-2016 14:07:19 UTC] PHP  11. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2080
+[16-Jun-2016 14:48:56 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 25
+[16-Jun-2016 14:48:56 UTC] PHP Stack trace:
+[16-Jun-2016 14:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:48:56 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:48:56 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:48:56 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:48:56 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:48:56 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:49:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 25
+[16-Jun-2016 14:49:20 UTC] PHP Stack trace:
+[16-Jun-2016 14:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:49:20 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:49:20 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:49:20 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:49:20 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\TraceableControllerResolver->getController($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:127
+[16-Jun-2016 14:49:20 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php:46
+[16-Jun-2016 14:49:20 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController($controller = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2028
+[16-Jun-2016 14:49:20 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController($controller = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2430
+[16-Jun-2016 14:49:20 UTC] PHP   9. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2080
+[16-Jun-2016 14:49:20 UTC] PHP  10. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2080
+[16-Jun-2016 14:49:20 UTC] PHP  11. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2080
+[16-Jun-2016 14:50:18 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 25
+[16-Jun-2016 14:50:18 UTC] PHP Stack trace:
+[16-Jun-2016 14:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:50:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:50:18 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:50:18 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:50:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:50:18 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:54:21 UTC] PHP Fatal error:  Class 'Professional' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 25
+[16-Jun-2016 14:54:21 UTC] PHP Stack trace:
+[16-Jun-2016 14:54:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:54:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:54:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:54:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:54:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:54:21 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:55:04 UTC] PHP Fatal error:  Class 'Professional' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 28
+[16-Jun-2016 14:55:04 UTC] PHP Stack trace:
+[16-Jun-2016 14:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:55:04 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:55:04 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:55:04 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:55:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:55:04 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:56:21 UTC] PHP Fatal error:  Class 'Professional' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 28
+[16-Jun-2016 14:56:21 UTC] PHP Stack trace:
+[16-Jun-2016 14:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:56:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:56:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:56:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:56:21 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:56:21 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:57:01 UTC] PHP Fatal error:  Class 'Professional' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 28
+[16-Jun-2016 14:57:01 UTC] PHP Stack trace:
+[16-Jun-2016 14:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 14:57:01 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 14:57:01 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 14:57:01 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 14:57:01 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 14:57:01 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 15:04:50 UTC] PHP Fatal error:  Class 'Professional' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 28
+[16-Jun-2016 15:04:50 UTC] PHP Stack trace:
+[16-Jun-2016 15:04:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 15:04:50 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 15:04:50 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 15:04:50 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 15:04:50 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 15:04:50 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 15:10:24 UTC] PHP Fatal error:  Class 'Professional' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 28
+[16-Jun-2016 15:10:24 UTC] PHP Stack trace:
+[16-Jun-2016 15:10:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[16-Jun-2016 15:10:24 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[16-Jun-2016 15:10:24 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[16-Jun-2016 15:10:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[16-Jun-2016 15:10:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[16-Jun-2016 15:10:24 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[20-Jun-2016 12:09:30 UTC] PHP Fatal error:  Uncaught exception 'Doctrine\Common\Persistence\Mapping\MappingException' with message 'Class 'AppBundle\Entity\User' does not exist' in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php(41): Doctrine\Common\Persistence\Mapping\MappingException::nonExistingClass('AppBundle\Entit...')
+#1 /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(281): Doctrine\Common\Persistence\Mapping\RuntimeReflectionService->getParentClasses('AppBundle\Entit...')
+#2 /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php(311): Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getParentClasses('AppBundle\Entit...')
+#3 /home/ubuntu/workspace/enquette/vendor/doctrine in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[20-Jun-2016 12:20:16 UTC] PHP Fatal error:  Class 'UserBundle\Controller\RegistrationType' not found in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 49
+[20-Jun-2016 12:20:16 UTC] PHP Stack trace:
+[20-Jun-2016 12:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[20-Jun-2016 12:20:16 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[20-Jun-2016 12:20:16 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[20-Jun-2016 12:20:16 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[20-Jun-2016 12:20:16 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[20-Jun-2016 12:20:16 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction($request = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[21-Jun-2016 10:46:02 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/index2.html')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/symfony/s in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:35 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:35 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:45 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:45 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:50 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:50 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:52 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:52 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:55 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:55 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:57 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:23:57 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:02 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:02 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:07 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:07 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:08 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:08 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:13 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:13 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:17 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:17 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:18 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
+[21-Jun-2016 14:24:18 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in /home/ubuntu/workspace/enquette/var/cache/prod/appProdUrlMatcher.php:301
+Stack trace:
+#0 /home/ubuntu/workspace/enquette/var/cache/prod/classes.php(310): appProdUrlMatcher->match('/bundles/easyad...')
+#1 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Routing/Router.php(256): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php(101): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/ubuntu/workspace/enquette/vendor/sym in /home/ubuntu/workspace/enquette/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/MappingException.php on line 96
