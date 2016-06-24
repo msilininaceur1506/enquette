@@ -5,6 +5,7 @@ namespace UserBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity
@@ -38,11 +39,15 @@ class User extends BaseUser
 	*/
     protected $adresse;
     
-    
+    /**
+     * @ORM\OneToMany(targetEntity="BackendBundle\Entity\Enquette", mappedBy="user")
+     */
+    private $enquettes;
 
     public function __construct()
     {
         parent::__construct();
+        $this->enquettes = new ArrayCollection();
         // your own logic
     }
     
@@ -55,7 +60,7 @@ class User extends BaseUser
     }
     
     public function __toString(){
-        return $this->first_name . ' ' . $this->last_name;
+        return '';
     }
     
     public function isProfessional(){

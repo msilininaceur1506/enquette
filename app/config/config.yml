@@ -91,3 +91,4 @@ easy_admin:
         - UserBundle\Entity\Admin
         - BackendBundle\Entity\Type
         - BackendBundle\Entity\Theme
+        - BackendBundle\Entity\Enquette

@@ -5,6 +5,7 @@ namespace BackendBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity
@@ -27,16 +28,33 @@ class Type
      */
     private $name;
     
+    /**
+     * @ORM\OneToMany(targetEntity="Enquette", mappedBy="type")
+     */
+    private $enquettes;
+
+    public function __construct()
+    {
+        $this->enquettes = new ArrayCollection();
+    }
     
+    public function getId(){
+        return $this->id;
+    }
     
     public function setId($id){
         $this->id = $id;
     }
+    
     public function setName($newName){
         $this->name = $newName;
     }
     
     public function getName(){
+        return $this->name;
+    }
+    
+    public function __toString(){
         return $this->name;
     }
 }

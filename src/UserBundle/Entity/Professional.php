@@ -26,4 +26,8 @@ class Professional extends User
     public function setRaisonSocial($raison){
         $this->raison_social = $raison;
     }
+    
+    public function __toString(){
+        return $this->raison_social;
+    }
 }
