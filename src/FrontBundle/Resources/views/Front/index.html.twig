@@ -14,8 +14,8 @@
 
 {% block page_content  %}
     <div class="col-md-6">
-    <div class="box box-solid">
-            <!-- /.box-header -->
+        <div class="box box-solid">
+        <!-- /.box-header -->
             <div class="box-body">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -26,21 +26,21 @@
                 <div class="carousel-inner">
                   <div class="item active">
                     <img src="http://placehold.it/900x500/39CCCC/ffffff&amp;text=I+Love+Bootstrap" alt="First slide">
-
+        
                     <div class="carousel-caption">
                       First Slide
                     </div>
                   </div>
                   <div class="item">
                     <img src="http://placehold.it/900x500/3c8dbc/ffffff&amp;text=I+Love+Bootstrap" alt="Second slide">
-
+        
                     <div class="carousel-caption">
                       Second Slide
                     </div>
                   </div>
                   <div class="item">
                     <img src="http://placehold.it/900x500/f39c12/ffffff&amp;text=I+Love+Bootstrap" alt="Third slide">
-
+        
                     <div class="carousel-caption">
                       Third Slide
                     </div>
@@ -54,9 +54,18 @@
                 </a>
               </div>
             </div>
-            <!-- /.box-body -->
-          </div>
+        <!-- /.box-body -->
+      </div>
+    </div>
+    <div class="col-md-6">
+        {% for theme in themes %}
+        <div class="row">
+            <div class="col-xs-4">
+                <button type="button" class="btn btn-block btn-primary btn-lg">{{ theme.name }}</button>
+            </div>
         </div>
+        {% endfor %}
+    </div>    
 {% endblock %}
 
 {% block avanzu_admin_footer %}
