@@ -1,0 +1,14 @@
+ <div class="col-md-2">
+        {% for theme in themes %}
+        <div class="row">
+            <div class="col-sm">
+                <div class="info-box ">
+                <a href="{{ path('list_enquette_type', {'theme': theme.name}) }}"><button type="button" class="btn btn-block btn-primary btn-lg">{{ theme.name }}</button></a>
+                    <div class="info-box-content">
+                        {% if themesCount[theme.id] is defined %} {{ themesCount[theme.id] }} {% endif %} 
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>

@@ -13,6 +13,8 @@
 {% endblock %}
 
 {% block page_content  %}
+    <div class="col-md-4">
+    </div>
     <div class="col-md-6">
         <div class="box box-solid">
         <!-- /.box-header -->
@@ -57,15 +59,6 @@
         <!-- /.box-body -->
       </div>
     </div>
-    <div class="col-md-6">
-        {% for theme in themes %}
-        <div class="row">
-            <div class="col-xs-4">
-                <button type="button" class="btn btn-block btn-primary btn-lg">{{ theme.name }}</button>
-            </div>
-        </div>
-        {% endfor %}
-    </div>    
 {% endblock %}
 
 {% block avanzu_admin_footer %}

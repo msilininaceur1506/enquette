@@ -23,13 +23,13 @@ class Enquette
     
     
     /**
-     * @ORM\ManyToOne(targetEntity="Theme", inversedBy="enquettes")
+     * @ORM\ManyToOne(targetEntity="BackendBundle\Entity\Theme", inversedBy="enquettes")
      * @ORM\JoinColumn(name="theme_id", referencedColumnName="id")
      */
     private $theme;
     
     /**
-     * @ORM\ManyToOne(targetEntity="Type", inversedBy="enquettes")
+     * @ORM\ManyToOne(targetEntity="BackendBundle\Entity\Type", inversedBy="enquettes")
      * @ORM\JoinColumn(name="type_id", referencedColumnName="id")
      */
     private $type;
@@ -51,6 +51,7 @@ class Enquette
     
     private $authorised_user;
     
+    private $authorised_group;
     /**
 	 * Description
 	 * @ORM\Column(type="string", length=100)
@@ -79,12 +80,22 @@ class Enquette
 	*/
     private $active;
     
+    /**
+	 * Public
+	 * @ORM\Column(type="boolean")
+	*/
+    private $public; 
+    
+    /**
+     * @ORM\OneToMany(targetEntity="BackendBundle\Entity\EnquetteResponse", mappedBy="enquette")
+     */
+    private $responses;
     
     public function getId(){
         return $this->id;
     }
     
-    public function setTheme(BackendBundle\Entity\Theme $newTheme){
+    public function setTheme($newTheme){
         $this->theme = $newTheme;
     }
     
@@ -93,7 +104,7 @@ class Enquette
     }
     
     
-    public function setType(BackendBundle\Entity\Type $newType){
+    public function setType($newType){
         $this->type = $newType;
     }
     
@@ -118,10 +129,18 @@ class Enquette
         return $this->description;
     }
     
+    public function setCreatedAt($creDate){
+        $this->created_at = $creDate;
+    }
+    
     public function getCreatedAt(){
         return $this->created_at;
     }
     
+    
+     public function setUpdatedAt($upDate){
+        $this->updated_at = $upDate;
+    }
     
     public function getUpdatedAt(){
         return $this->updated_at;
@@ -141,5 +160,17 @@ class Enquette
     
     public function getUser(){
         return $this->user;
+    }
+    
+    public function isPublic(){
+        return ($this->public == true);
+    }
+    
+    public function setPblic($public){
+        $this->public = $public;
+    }
+    
+    public function __toString(){
+        return $this->titre;
     }
 }

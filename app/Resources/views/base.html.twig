@@ -23,14 +23,14 @@
     
     {% block avanzu_admin_header %}
         {% include 'FrontBundle:Front:header.html.twig' %}
-        {% include 'FrontBundle:Front:menu.html.twig' %}
     {% endblock %}
     
-    <div class="content-wrapper">
+    <div class="content-wrapper content" style="min-height: 901px;">
         <section class="content">
-            {% block page_content  %}
-                
-            {% endblock %}
+        {% block page_content  %}
+            
+        {% endblock %}
+         {{ render(controller('FrontBundle:Front:listTheme')) }}
         </section>
     </div>
 

@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block page_title %}
+
+{% endblock %}
+
+{% block page_subtitle %}
+
+{% endblock %}
+
+{% block page_content  %}
+<div class="col-md-2">
+</div>
+<div class="col-md-8">
+  <div class="row">
+    {% for enquette in theme.enquettes %}
+      {% include 'FrontBundle:Front:enquette.html.twig' with  {'enquette': enquette } %}
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

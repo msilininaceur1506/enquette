@@ -44,10 +44,16 @@ class User extends BaseUser
      */
     private $enquettes;
 
+    /**
+     * @ORM\OneToMany(targetEntity="BackendBundle\Entity\EnquetteResponse", mappedBy="user")
+     */
+    private $responses;
+    
     public function __construct()
     {
         parent::__construct();
         $this->enquettes = new ArrayCollection();
+        $this->responses = new ArrayCollection(); 
         // your own logic
     }
     
@@ -64,14 +70,14 @@ class User extends BaseUser
     }
     
     public function isProfessional(){
-        if($this->type == 'Professional')
+        if($this->user_type == 'Professional')
             return true;
         else
             return false;
     }
     
     public function isAdmin(){
-        if($this->type == 'Admin')
+        if($this->user_type == 'Admin')
             return true;
         else
             return false;
@@ -79,14 +85,38 @@ class User extends BaseUser
     
     
     public function isParticular(){
-        if($this->type == 'Particular')
+        if($this->user_type == 'Particular')
             return true;
         else
             return false;
     }
     
     
-    public function setType($newType){
-        $this->type = $newType;
+    public function setUserType($newType){
+        $this->user_type = $newType;
+    }
+    
+    public function getUserType(){
+        return $this->user_type;
+    }
+    
+    public function getExpiresAt(){
+        return $this->expiresAt;
+    }
+    
+    public function getCredentialsExpireAt(){
+        return $this->credentialsExpireAt;
+    }
+    
+    public function getEnquettes(){
+        return $this->enquettes;
+    }
+    
+    public function getResponses(){
+        return $this->responses;
+    }
+    
+    public function setSalt($salt){
+        $this->salt = $salt;
     }
 }

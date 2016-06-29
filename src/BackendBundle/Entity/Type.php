@@ -33,9 +33,15 @@ class Type
      */
     private $enquettes;
 
+    /**
+     * @ORM\OneToMany(targetEntity="TypeResponse", mappedBy="type")
+     */
+    private $responses;
+
     public function __construct()
     {
         $this->enquettes = new ArrayCollection();
+        $this->responses = new ArrayCollection();
     }
     
     public function getId(){

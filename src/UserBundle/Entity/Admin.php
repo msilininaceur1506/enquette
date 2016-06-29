@@ -17,4 +17,18 @@ class Admin extends User
 	 * @ORM\Column(type="string", length=20)
 	*/
     protected $name;
+    
+    public function __construct(){
+        parent::__construct();
+        $this->user_type = 'admin';
+        $this->roles = array('ROLE_ADMIN');
+    }
+    
+    public function setName($name){
+        $this->name = $name;
+    }
+    
+    public function getName(){
+        return $this->name;
+    }
 }

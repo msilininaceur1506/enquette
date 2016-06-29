@@ -55,6 +55,9 @@ class Theme
         return $this->name;
     }
     
+    public function getEnquettes(){
+        return $this->enquettes;
+    }
     
     public function __toString(){
         return $this->name;

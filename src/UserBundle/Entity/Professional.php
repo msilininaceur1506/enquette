@@ -18,6 +18,12 @@ class Professional extends User
     protected $raison_social;
     
     
+    public function __construct(){
+        parent::__construct();
+        $this->user_type = 'professional';
+        $this->roles = array('ROLE_PRO');
+    }
+
     public function getRaisonSocial(){
         return $this->raison_social;
     }

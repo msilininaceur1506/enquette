@@ -23,7 +23,14 @@ class Particular extends User
 	*/
     protected $last_name;
     
-        public function getFirstName(){
+    
+    public function __construct(){
+        parent::__construct();
+        $this->user_type = 'particular';
+        $this->roles = array('ROLE_USER');
+    }
+    
+    public function getFirstName(){
         return $this->first_name;
     }
     

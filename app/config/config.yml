@@ -87,8 +87,9 @@ easy_admin:
     entities:
         - UserBundle\Entity\Particular
         - UserBundle\Entity\Professional
-        - UserBundle\Entity\User
         - UserBundle\Entity\Admin
         - BackendBundle\Entity\Type
         - BackendBundle\Entity\Theme
         - BackendBundle\Entity\Enquette
+        - BackendBundle\Entity\TypeResponse
+        - BackendBundle\Entity\EnquetteResponse
