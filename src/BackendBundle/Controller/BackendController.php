@@ -10,4 +10,9 @@ class BackendController extends Controller
     {
         return $this->render('BackendBundle:Backend:index.html.twig');
     }
+    
+    
+    public function backendNewEnquetteAction(){
+        
+    }
 }

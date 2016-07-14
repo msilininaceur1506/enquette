@@ -1,24 +1,26 @@
 {% extends 'basebackend.html.twig' %}
 
 {% block page_title %}
-
+    
 {% endblock %}
 
 {% block page_subtitle %}
 
 {% endblock %}
 
-
 {% block avanzu_admin_header %}
     {% include 'BackendBundle:Backend:header.html.twig' %}
 {% endblock %}
 
 {% block avanzu_sidebar %}
-{% include 'BackendBundle:Backend:menu.html.twig' %}
+    {{ parent() }}
+    {% include 'BackendBundle:Backend:menu.html.twig' %}
 {% endblock %}
 
 {% block page_content  %}
-
+    {% for enquette in mesEnquettes %}
+          {% include 'FrontBundle:Front:enquette.html.twig' with { 'enquette': enquette } %}
+    {% endfor %}
 {% endblock %}
 
 {% block avanzu_admin_footer %}

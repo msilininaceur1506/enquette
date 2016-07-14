@@ -499,3 +499,561 @@ Stack trace:
 [29-Jun-2016 12:47:31 UTC] PHP  13. Symfony\Component\HttpKernel\Profiler\Profiler->collect() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php:97
 [29-Jun-2016 12:47:31 UTC] PHP  14. Symfony\Component\HttpKernel\DataCollector\DumpDataCollector->collect() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Profiler/Profiler.php:178
 [29-Jun-2016 12:47:31 UTC] PHP  15. strripos() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/DumpDataCollector.php:148
+[04-Jul-2016 11:56:52 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/enquette/src/UserBundle/Services/LoginSuccessHandler.php on line 34
+[04-Jul-2016 11:56:52 UTC] PHP Stack trace:
+[04-Jul-2016 11:56:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 11:56:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 11:56:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 11:56:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 11:56:52 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[04-Jul-2016 11:56:52 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[04-Jul-2016 11:56:52 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[04-Jul-2016 11:56:52 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[04-Jul-2016 11:56:52 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[04-Jul-2016 11:56:52 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[04-Jul-2016 11:56:52 UTC] PHP  11. Symfony\Component\Security\Http\Firewall->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[04-Jul-2016 11:56:52 UTC] PHP  12. Symfony\Bundle\SecurityBundle\Security\FirewallMap->getListeners() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2498
+[04-Jul-2016 11:56:52 UTC] PHP  13. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2832
+[04-Jul-2016 11:56:52 UTC] PHP  14. appDevDebugProjectContainer->getSecurity_Firewall_Map_Context_MainService() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:275
+[04-Jul-2016 11:56:52 UTC] PHP  15. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/enquette/var/cache/dev/appDevDebugProjectContainer.php:2638
+[04-Jul-2016 11:56:52 UTC] PHP  16. appDevDebugProjectContainer->getLoginSuccessHandlerService() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:275
+[04-Jul-2016 11:56:52 UTC] PHP  17. spl_autoload_call() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:2116
+[04-Jul-2016 11:56:52 UTC] PHP  18. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:2116
+[04-Jul-2016 12:22:38 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:22:38 UTC] PHP Stack trace:
+[04-Jul-2016 12:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:22:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:22:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:22:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:22:38 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:22:38 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:23:57 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:23:57 UTC] PHP Stack trace:
+[04-Jul-2016 12:23:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:23:57 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:23:57 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:23:57 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:23:57 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:23:57 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:24:47 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:24:47 UTC] PHP Stack trace:
+[04-Jul-2016 12:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:24:47 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:24:47 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:24:47 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:24:47 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:24:47 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:27:40 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:27:40 UTC] PHP Stack trace:
+[04-Jul-2016 12:27:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:27:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:27:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:27:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:27:40 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:27:40 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:37:30 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:37:30 UTC] PHP Stack trace:
+[04-Jul-2016 12:37:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:37:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:37:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:37:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:37:30 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:37:30 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:37:37 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:37:37 UTC] PHP Stack trace:
+[04-Jul-2016 12:37:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:37:37 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:37:37 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:37:37 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:37:37 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:37:37 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:40:59 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:40:59 UTC] PHP Stack trace:
+[04-Jul-2016 12:40:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:40:59 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:40:59 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:40:59 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:40:59 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:40:59 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:41:19 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Particular::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:41:19 UTC] PHP Stack trace:
+[04-Jul-2016 12:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:41:19 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:41:19 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:41:19 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:41:19 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:41:19 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:41:26 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:41:26 UTC] PHP Stack trace:
+[04-Jul-2016 12:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:41:26 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:41:26 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:41:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:41:26 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:41:26 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:42:03 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:42:03 UTC] PHP Stack trace:
+[04-Jul-2016 12:42:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:42:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:42:03 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:42:03 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:42:03 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:42:03 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:43:36 UTC] PHP Fatal error:  Call to undefined method UserBundle\Entity\Professional::setType() in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 44
+[04-Jul-2016 12:43:36 UTC] PHP Stack trace:
+[04-Jul-2016 12:43:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[04-Jul-2016 12:43:36 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[04-Jul-2016 12:43:36 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[04-Jul-2016 12:43:36 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[04-Jul-2016 12:43:36 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[04-Jul-2016 12:43:36 UTC] PHP   6. UserBundle\Controller\RegistrationController->registerAction() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:139
+[07-Jul-2016 08:27:18 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:18 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:18 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:18 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:18 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:18 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:18 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:18 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:18 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:18 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:18 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:18 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:18 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:18 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:18 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:18 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:18 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:18 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:18 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:18 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:18 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:18 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:18 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:18 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:21 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:21 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:21 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:21 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:21 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:21 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:21 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:21 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:21 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:21 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:21 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:21 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:21 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:21 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:21 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:21 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:21 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:21 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:21 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:21 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:21 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:21 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:21 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:21 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:26 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:26 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:26 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:26 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:26 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:26 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:26 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:26 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:26 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:26 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:26 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:26 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:26 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:26 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:26 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:26 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:26 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:26 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:26 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:26 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:26 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:26 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:26 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:26 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:29 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:29 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:29 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:29 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:29 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:29 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:29 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:29 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:29 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:29 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:29 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:29 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:29 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:29 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:29 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:29 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:29 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:29 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:29 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:29 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:29 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:29 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:34 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:34 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:34 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:34 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:34 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:34 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:34 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:34 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:34 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:34 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:34 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:34 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:34 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:34 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:34 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:34 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:34 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:34 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:34 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:34 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:34 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:34 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:34 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:37 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:37 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:37 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:37 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:37 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:37 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:37 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:37 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:37 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:37 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:37 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:37 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:37 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:37 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:37 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:37 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:37 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:37 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:37 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:37 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:37 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:37 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:37 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:37 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:38 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:38 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:38 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:38 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:38 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:38 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:38 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:38 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:38 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:38 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:38 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:38 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:38 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:38 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:38 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:38 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:38 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:38 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:38 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:38 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:38 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:38 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:38 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:38 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:40 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:27:40 UTC] PHP Stack trace:
+[07-Jul-2016 08:27:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:27:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:27:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:27:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:27:40 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:27:40 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:27:40 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:27:40 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:40 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:27:40 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:40 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:27:40 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:27:40 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:27:40 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:27:40 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:40 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:27:40 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:27:40 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:27:40 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:27:40 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:27:40 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:40 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:27:40 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:30 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:39:30 UTC] PHP Stack trace:
+[07-Jul-2016 08:39:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:39:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:39:30 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:39:30 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:39:30 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:39:30 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:39:30 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:39:30 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:30 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:30 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:30 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:31 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:39:31 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:39:31 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:39:31 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:31 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:31 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:39:31 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:39:31 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:39:31 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:39:31 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:31 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:31 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:33 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:39:33 UTC] PHP Stack trace:
+[07-Jul-2016 08:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:39:33 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:39:33 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:39:33 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:39:33 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:39:33 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:39:33 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:39:33 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:33 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:33 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:33 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:33 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:39:33 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:39:33 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:39:33 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:33 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:33 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:39:33 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:39:33 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:39:33 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:39:33 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:33 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:33 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:40 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:39:40 UTC] PHP Stack trace:
+[07-Jul-2016 08:39:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:39:40 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:39:40 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:39:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:39:40 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:39:40 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:39:40 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:39:40 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:40 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:40 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:40 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:40 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:39:40 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:39:40 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:39:40 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:40 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:40 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:39:40 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:39:40 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:39:40 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:39:40 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:40 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:40 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:42 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:39:42 UTC] PHP Stack trace:
+[07-Jul-2016 08:39:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:39:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:39:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:39:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:39:42 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:39:42 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:39:42 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:39:42 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:42 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:39:42 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:42 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:39:42 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:39:42 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:39:42 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:39:42 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:42 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:39:42 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:39:42 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:39:42 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:39:42 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:39:42 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:42 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:39:42 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:08 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:56:08 UTC] PHP Stack trace:
+[07-Jul-2016 08:56:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:56:08 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:56:08 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:56:08 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:56:08 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:56:08 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:56:08 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:56:08 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:08 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:08 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:08 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:08 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:56:08 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:56:08 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:56:08 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:08 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:08 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:56:08 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:56:08 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:56:08 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:56:08 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:08 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:08 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:10 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:56:10 UTC] PHP Stack trace:
+[07-Jul-2016 08:56:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:56:10 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:56:10 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:56:10 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:56:10 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:56:10 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:56:10 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:56:10 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:10 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:10 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:10 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:56:10 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:56:10 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:56:10 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:10 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:10 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:56:10 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:56:10 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:56:10 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:56:10 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:10 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:10 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:51 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:56:51 UTC] PHP Stack trace:
+[07-Jul-2016 08:56:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:56:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:56:51 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:56:51 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:56:51 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:56:51 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:56:51 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:56:51 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:51 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:51 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:51 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:51 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:56:51 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:56:51 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:56:51 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:51 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:51 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:56:51 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:56:51 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:56:51 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:56:51 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:51 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:51 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:53 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 08:56:53 UTC] PHP Stack trace:
+[07-Jul-2016 08:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 08:56:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 08:56:53 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 08:56:53 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 08:56:53 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 08:56:53 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 08:56:53 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 08:56:53 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:53 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 08:56:53 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:53 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 08:56:53 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 08:56:53 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 08:56:53 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 08:56:53 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:53 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 08:56:53 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 08:56:53 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 08:56:53 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 08:56:53 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 08:56:53 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:53 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 08:56:53 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 10:02:10 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 10:02:10 UTC] PHP Stack trace:
+[07-Jul-2016 10:02:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 10:02:10 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 10:02:10 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 10:02:10 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 10:02:10 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 10:02:10 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 10:02:10 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch($listeners = *uninitialized*, $eventName = *uninitialized*, $event = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 10:02:10 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 10:02:10 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke($event = *uninitialized*, $eventName = *uninitialized*, $dispatcher = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 10:02:10 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 10:02:10 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest($event = *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 10:02:10 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest($request = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 10:02:10 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 10:02:10 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache($file = *uninitialized*, $callback = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 10:02:10 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 10:02:10 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}($cache = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 10:02:10 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 10:02:10 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 10:02:10 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load($resource = *uninitialized*, $type = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 10:02:10 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse($controller = *uninitialized*) /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 10:02:10 UTC] PHP  21. class_exists(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 10:02:10 UTC] PHP  22. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 10:02:10 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 10:02:12 UTC] PHP Parse error:  syntax error, unexpected '$dispatcher' (T_VARIABLE) in /home/ubuntu/workspace/enquette/src/UserBundle/Controller/RegistrationController.php on line 45
+[07-Jul-2016 10:02:12 UTC] PHP Stack trace:
+[07-Jul-2016 10:02:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/enquette/web/app_dev.php:0
+[07-Jul-2016 10:02:12 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/enquette/web/app_dev.php:29
+[07-Jul-2016 10:02:12 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:169
+[07-Jul-2016 10:02:12 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:62
+[07-Jul-2016 10:02:12 UTC] PHP   5. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:120
+[07-Jul-2016 10:02:12 UTC] PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:136
+[07-Jul-2016 10:02:12 UTC] PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1671
+[07-Jul-2016 10:02:12 UTC] PHP   8. call_user_func:{/home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756}() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 10:02:12 UTC] PHP   9. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1756
+[07-Jul-2016 10:02:12 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 10:02:12 UTC] PHP  11. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+[07-Jul-2016 10:02:12 UTC] PHP  12. Symfony\Component\Routing\Router->matchRequest() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1953
+[07-Jul-2016 10:02:12 UTC] PHP  13. Symfony\Component\Routing\Router->getMatcher() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1221
+[07-Jul-2016 10:02:12 UTC] PHP  14. Symfony\Component\Config\ResourceCheckerConfigCacheFactory->cache() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1253
+[07-Jul-2016 10:02:12 UTC] PHP  15. call_user_func:{/home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 10:02:12 UTC] PHP  16. Symfony\Component\Routing\Router->Symfony\Component\Routing\{closure}() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCacheFactory.php:46
+[07-Jul-2016 10:02:12 UTC] PHP  17. Symfony\Component\Routing\Router->getMatcherDumperInstance() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1243
+[07-Jul-2016 10:02:12 UTC] PHP  18. Symfony\Bundle\FrameworkBundle\Routing\Router->getRouteCollection() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1291
+[07-Jul-2016 10:02:12 UTC] PHP  19. Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader->load() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:1510
+[07-Jul-2016 10:02:12 UTC] PHP  20. Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser->parse() /home/ubuntu/workspace/enquette/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php:80
+[07-Jul-2016 10:02:12 UTC] PHP  21. class_exists() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 10:02:12 UTC] PHP  22. spl_autoload_call() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351
+[07-Jul-2016 10:02:12 UTC] PHP  23. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/enquette/var/cache/dev/classes.php:2351

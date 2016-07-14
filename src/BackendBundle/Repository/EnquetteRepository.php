@@ -26,4 +26,19 @@ class EnquetteRepository extends EntityRepository
         
         return $nbrEnquette;
     }
+    
+    public function getListEnquetteByUser($user){
+        $query = $this->getEntityManager()
+                      ->createQueryBuilder()
+                      ->select('e')
+                      ->from($this->_entityName, 'e')
+                      ->leftjoin('e.user', 'u')
+                      ->where('u.id = :user')
+                      ->setParameter('user', $user)
+                      ->getQuery();
+                      
+        return $query->getResult();
+        
+        
+    }
 }

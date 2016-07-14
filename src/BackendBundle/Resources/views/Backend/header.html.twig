@@ -1,7 +1,7 @@
 <header class="main-header">
-  <a href="../../index2.html" class="logo">
+  <a href="{% if(is_granted("ROLE_PRO")) %} {{ path('pro_homepage') }} {% else %}  {{ path('part_homepage') }} {% endif %}" class="logo">
     <!-- LOGO -->
-    AdminLTE
+    Logo Application
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top" role="navigation">
@@ -124,7 +124,7 @@
                 <a href="#" class="btn btn-default btn-flat">Profile</a>
               </div>
               <div class="pull-right">
-                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <a href="{{ path('fos_user_security_logout') }}" class="btn btn-default btn-flat">Sign out</a>
               </div>
             </li>
           </ul>

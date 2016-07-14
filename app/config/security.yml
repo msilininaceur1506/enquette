@@ -30,6 +30,7 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
+                success_handler:     login_success_handler
                 # if you are using Symfony < 2.8, use the following config instead:
                 # csrf_provider: form.csrf_provider
 
@@ -47,7 +48,7 @@ security:
          - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
          - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
          - { path: ^/backend, role: ROLE_USER }
-         - { path: ^/pro, role: ROLE_PRO }
-         - { path: ^/front, role: ROLE_USER }
+         - { path: ^/backend/professionel, role: ROLE_PRO }
+         - { path: ^/backend/particulier, role: ROLE_USER }
          - { path: ^/admin, role: ROLE_ADMIN }
          

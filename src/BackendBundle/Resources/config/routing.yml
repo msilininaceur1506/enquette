@@ -1,3 +1,15 @@
 backend_homepage:
     path:     /
     defaults: { _controller: BackendBundle:Backend:index }
+
+pro_homepage:
+    path:     /professionel
+    defaults: { _controller: BackendBundle:Professionel:index }
+    
+part_homepage:
+    path:     /particulier
+    defaults: { _controller: BackendBundle:Backend:index }
+    
+backend_new_enquette:
+    path: /enquette/new
+    defaults: { _contorller: BackendBundle:Backend:backendNewEnquette }

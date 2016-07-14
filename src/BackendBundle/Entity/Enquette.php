@@ -170,6 +170,10 @@ class Enquette
         $this->public = $public;
     }
     
+    public function getResponses(){
+        return $this->responses;
+    }
+    
     public function __toString(){
         return $this->titre;
     }

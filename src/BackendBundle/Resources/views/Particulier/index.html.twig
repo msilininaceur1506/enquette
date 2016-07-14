@@ -1,20 +1,16 @@
 {% extends 'basebackend.html.twig' %}
 
 {% block page_title %}
-
+    
 {% endblock %}
 
 {% block page_subtitle %}
 
 {% endblock %}
 
-
 {% block avanzu_admin_header %}
     {% include 'BackendBundle:Backend:header.html.twig' %}
-{% endblock %}
-
-{% block avanzu_sidebar %}
-{% include 'BackendBundle:Backend:menu.html.twig' %}
+    {% include 'BackendBundle:Backend:menu.html.twig' %}
 {% endblock %}
 
 {% block page_content  %}

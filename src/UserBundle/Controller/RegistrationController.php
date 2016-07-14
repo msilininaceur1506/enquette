@@ -41,8 +41,7 @@ class RegistrationController extends BaseController
         //$user = $userManager->createUser();
         
         $user->setEnabled(true);
-        $user->setType($type);
-        $event = new GetResponseUserEvent($user, $request);
+        $event = new GetResponseUserEvent($user, $request); 
         $dispatcher->dispatch(FOSUserEvents::REGISTRATION_INITIALIZE, $event);
 
         if (null !== $event->getResponse()) {

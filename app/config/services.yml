@@ -14,3 +14,7 @@ services:
     enq_user.profile.form.factory:
         class: UserBundle\Form\Factory\FormFactory
         arguments: ["@form.factory", "%fos_user.registration.form.name%", "%fos_user.registration.form.type%", "%fos_user.registration.form.validation_groups%"]
+        
+    login_success_handler:
+        class:     UserBundle\Services\LoginSuccessHandler
+        arguments:  ["@router", "@security.authorization_checker"]
