@@ -30,7 +30,7 @@ class FrontController extends Controller
     public function listThemeAction(){
         $em = $this->getDoctrine()->getManager();
         $themes = $em->getRepository('BackendBundle:Theme')->getAllOrderByName();
-        $themesCount = $em->getRepository('BackendBundle:Enquette')->getNbrEnquetteByTheme();
+        $themesCount = $em->getRepository('BackendBundle:Enquette')->getNbrPublicEnquetteByTheme();
         return $this->render('FrontBundle:Front:listTheme.html.twig', array('themes'=>$themes, 'themesCount'=>$themesCount));
     }
 }

@@ -166,7 +166,7 @@ class Enquette
         return ($this->public == true);
     }
     
-    public function setPblic($public){
+    public function setPublic($public){
         $this->public = $public;
     }
     
