@@ -20,13 +20,13 @@ class BackendController extends Controller
         $enqForm = $this->createForm(Enquette, $enq);
         switch($type){
             
-            'particulier': 
-                return $this->render('BackendBundle:Particulier:newEnquette.html.twig', 'enquette'=>$enquette);
+            case 'particulier': 
+                //return $this->render('BackendBundle:Particulier:newEnquette.html.twig', 'enquette'=>$enquette);
                 break;
-            'professionel':
-                return $this->render('BackendBundle:Pro:newEnquette.html.twig', 'enquette'=>$enquette);
+            case 'professionel':
+                //return $this->render('BackendBundle:Pro:newEnquette.html.twig', 'enquette'=>$enquette);
                 break;
-            'default':
+            default:
                 break;
                 
         }
